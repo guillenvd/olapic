@@ -26,7 +26,7 @@ $(document).ready(function() {
         var mediaListLength = mediaList.length;
         for(var i=0; i<mediaListLength; i++) {
           var uniqueMedia = mediaList[i];
-          var image = uniqueMedia['images']['thumbnails'];
+          var image = uniqueMedia['images']['thumbnail'];
           var closeUp = uniqueMedia['images']['normal'];
           var caption = uniqueMedia['caption'];
           var name = uniqueMedia['_embedded']['uploader']['username'];
